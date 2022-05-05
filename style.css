@@ -1,0 +1,49 @@
+body{
+    background-image: url("https://media.istockphoto.com/photos/bright-colored-dice-picture-id1286318023?k=20&m=1286318023&s=612x612&w=0&h=3buBZHa1lO_E1FeCu6O_vzpVKNPrQv9tzISe10DIsnQ=");
+    background-repeat: repeat;
+    background-position: center;
+    font-size: 30pt;
+  
+}
+.start{
+    display: inline-block;
+    padding: .75rem 1.25rem;
+    border-radius: 10rem;
+    color: rgb(154, 17, 156);
+    text-transform: uppercase;
+    font-size: 3rem;
+    letter-spacing: .15rem;
+    transition: all .3s;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    
+            border: 3px solid coral;
+           
+}
+.wrapper{
+width: 30%;
+margin: auto;
+text-align:center;
+
+}
+h1{
+    color: antiquewhite;
+    margin: 15px;
+    font-size: 50px;
+
+}
+.dice-area{
+    margin: 0px 50 px ;
+    text-align: center;
+    display:inline-block;
+}
+p{
+    font-size: 50px 50px rgb(0, 149, 255) -50px -50px red;
+    color: rgb(127, 217, 217);
+}
+img{
+    width: 120px;
+
+}
+
