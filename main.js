@@ -16,9 +16,9 @@ document.querySelectorAll('img')[1].setAttribute('src',secondDiceImage);
 
 //Logic for Winner
 if (firstRandomNumber>secondRandomNumber){
-    document.querySelector('h1').innerHTML = 'The Winner is Player 1'
+    document.querySelector('h2').innerHTML = 'The Winner is Player 1'
 }else if (firstRandomNumber<secondRandomNumber){
-    document.querySelector('h1').innerHTML = 'The Winner is Player 2'
+    document.querySelector('h2').innerHTML = 'The Winner is Player 2'
 }else {
-    document.querySelector('h1').innerHTML = 'Its Draw'
+    document.querySelector('h2').innerHTML = 'Its Draw'
 }
