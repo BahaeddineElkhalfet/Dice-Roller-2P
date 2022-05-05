@@ -5,25 +5,31 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Dice Roll Game</title>
+    <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzBuSfDeP43I_uEFsexVF-_wOxSzLWDEu__Q&usqp=CAU">
 </head>
 <body>
-    <div class="wrapper">
-      <h1></h1>
-      <button class="start" onclick="window.location.reload()">
-        START
-    </button> <br>
-<div class="dice-area">
-    <p>Player 1</p>
-    <img />
-    
-</div>
+ <div class='container'>
+     <h1 id="message">Player 1 Turn</h1>
+     <div class='players'>
+         <div class="player1">
+             <h1>
+                 Score:
+                 <span id="player1Scoreboard">0</span>
+             </h1>
+             <div id="player1Dice" class="dice active">.</div>
+         </div>
+         <div class="player2">
+             <h1>
+                 Score:
+                 <span id="player2Scoreboard">0</span>
+             </h1>
+             <div id="player2Dice" class="dice">.</div>
+         </div>
+     </div> 
+     <button id="rollbtn">Roll Dice</button>
+     <button id="resetbtn">Reset Game</button>
+ </div>
  
-<div class="dice-area">
-    <p>Player 2</p>
-    <img />
-</div>
-    </div>
- 
-<script src="main.js" charset="uth"></script>
+<script src="main.js"></script>
 </body>
 </html>
