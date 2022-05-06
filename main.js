@@ -9,7 +9,7 @@
   var player2Scoreboard = document.getElementById('player2Scoreboard')
   var message = document.getElementById('message')
   var rollbtn = document.getElementById('rollbtn')
-  var resetbtn = document.getElementById('resetbtn')
+//   var resetbtn = document.getElementById('resetbtn')
   // 
   rollbtn.addEventListener("click"  ,  function(){
       var randomNumber = Math.floor(Math.random() * 6 ) + 1
@@ -37,7 +37,7 @@
        }else if (player2Score>=20){
            message.textContent = 'Player 2 has won !'
            rollbtn.style.display ='none'
-           resetbtn.style.display= reset()
+        //    resetbtn.style.display= reset()
        }
       //ro rese the code
       play1Turn=!play1Turn
