@@ -1,56 +1,58 @@
-html{
-    background: url("https://static.wikia.nocookie.net/0e4e9d66-20c5-46a6-91ed-f150002fc103/scale-to-width/755") no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    
+html,body{
+    background-image: url('http://i.stack.imgur.com/kx8MT.gif%27');
+    background-size: cover;    
+    ..color-1: #a8e6cf;
+    ..color-2: #dcedc1;
+    ..color-3: #ffd3b6;
+    ..color-4: #ffaaa5;
+    ..color-5: #ff8b94;
+     margin: 0;
+     padding:0;
 }
-body{
-    font-size: 30px;
-}
-.start{
-    padding: .75rem 1.25rem;
-    border-radius: 8rem;
-    color: rgb(154, 17, 156);
-    text-transform: uppercase;
-    font-size: 3rem;
-    letter-spacing: .15rem;
-    
-    position: relative;
-    overflow: hidden;
-  
-    
-            border: 3px solid coral;
-           
-}
-.wrapper{
-width: 29%;
-margin: auto;
-text-align:center;
-
-}
-h2{
-
-    color: rgba(111, 127, 193, 0.92);
-    margin: 15px;
-    font-size: 50px;
-    
-    
-}
-.dice-area{
-    margin: 0px 50 px ;
+.container{
+    width: 400px;
     text-align: center;
-    display:inline-block;
+    margin: 0 auto;
+    background-color: white;
+    box-shadow: -2px 6px 18px 3px black;
+    padding: 50px;
 }
-p{
-    font-size: 50px 50px rgb(0, 149, 255) -50px -50px red;
-    color: rgb(4, 44, 44);
-    background-color: aqua;
-    border-radius: 15rem;
+.players{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
 }
-img{
-    width: 120px;
-border-radius: 30%;
+.dice{
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+    background-color: var(..color-3);
+    margin: 0 auto;
+    font-size: 80px;
+    display:block;
+    aligne-items: center;
+    justify-content: center;
+    box-shadow: -2px 6px 18px 3px black;
+}
+button{
+    color: #fff;
+    padding: 20px 30px;
+    font-size: 20px;
+    margin: 40px auto;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#rollbtn{
+    background-color: red
+}
+#resetbtn{
+    background-color: red
+}button:focus{
+    outline: none;
 }
 
+#resetbtn{
+
+    display: "none";
+}
