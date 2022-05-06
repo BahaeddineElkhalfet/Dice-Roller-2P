@@ -1,5 +1,6 @@
 html,body{
-
+    background-image: url('http://i.stack.imgur.com/kx8MT.gif%27');
+    background-size: cover;    
     ..color-1: #a8e6cf;
     ..color-2: #dcedc1;
     ..color-3: #ffd3b6;
@@ -8,14 +9,6 @@ html,body{
      margin: 0;
      padding:0;
 }
-body{
-     padding-top: 50px;
-     background-image:url(https://static.wikia.nocookie.net/0e4e9d66-20c5-46a6-91ed-f150002fc103/scale-to-width/755);     
-     font-family: sans-serif;
-     height: 100vh;
-     color: black;
-}
-
 .container{
     width: 400px;
     text-align: center;
@@ -39,6 +32,7 @@ body{
     display:block;
     aligne-items: center;
     justify-content: center;
+    box-shadow: -2px 6px 18px 3px black;
 }
 button{
     color: #fff;
@@ -61,7 +55,4 @@ button{
 #resetbtn{
 
     display: "none";
-}
-.active{
-    box-shadow: -2px 6px 18px 3px black;
 }

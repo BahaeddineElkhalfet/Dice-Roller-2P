@@ -33,14 +33,15 @@
        if (player1Score >= 20){
            message.textContent = 'Player 1 has won !'
            rollbtn.style.display ='none'
-           resetbtn.style.display= 'block'
+           resetbtn.style.display= reset()
        }else if (player2Score>=20){
            message.textContent = 'Player 2 has won !'
            rollbtn.style.display ='none'
-           resetbtn.style.display= 'block'
+           resetbtn.style.display= reset()
        }
       //ro rese the code
       play1Turn=!play1Turn
+      
 
-  })
+      })
 
